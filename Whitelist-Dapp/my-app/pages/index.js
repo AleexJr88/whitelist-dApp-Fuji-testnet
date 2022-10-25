@@ -192,7 +192,7 @@ export default function Home() {
       // Asigne la clase Web3Modal al objeto de referencia estableciendo su valor 'current'
       // El valor 'current' se conserva durante todo el tiempo que esta página esté abierta
       web3ModalRef.current = new Web3Modal({
-        network: "goerli",
+        network: "fuji",
         providerOptions: {},
         disableInjectedProvider: false,
       });
